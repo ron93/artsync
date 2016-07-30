@@ -53,6 +53,9 @@ header h1,
 }
 /*transition to reduce height*/
 
+
+
+/*transition time for effect*/
 .header h1,
 .header nav a {
 	-webkit-transition: all 0.3s;
