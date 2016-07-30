@@ -1,7 +1,10 @@
 body{
-    height: 1500px;
+    height: 1000px;
 }
-
+.container{
+   background-image: url(../img/turquoise-1540436__180.png) no-repeat cover;
+    
+}
 
 /*header*/
 h1{
