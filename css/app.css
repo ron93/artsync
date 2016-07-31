@@ -40,6 +40,7 @@ h1{
 	-moz-transition: height 0.3s;
 	transition: height 0.3s;
    background-color:#000000;
+opacity: 0.8;
 }
 .header h1,.header nav{
 display: inline-block;
@@ -74,6 +75,15 @@ header h1,
 .header nav a:hover {
 	color: #333;
 }
+
+.small-h{
+  height: 7em;
+    background-color: gray;
+}
+
+header h1{
+  padding-top: 12px;;
+}
 /*transition to reduce height*/
 
 
@@ -93,8 +103,11 @@ header h1,
 .header.header-shrink h1,
 .header.header-shrink nav a {
 	line-height: 90px;
+    margin-bottom: -50px;
 }
-
+.container.container-drop{
+    margin-top: 35em;
+}
 
 .header.header-shrink h1 {
 	font-size: 2em;
