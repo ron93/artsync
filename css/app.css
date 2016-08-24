@@ -4,12 +4,19 @@ body{
     
 }
 #container{
-    background-color: aqua;
+    background-color: ;
     
     height: 400px;
     margin: 70px;
 }
 /*HEADER*/
+
+
+/*NAV*/
+nav a{
+    padding-left: 70px;
+    padding-right: 80px;
+}
 
 
 
