@@ -1,23 +1,30 @@
 body{
     background-color: #fff;
     height: 550px;
+
     
 }
 #container{
-    background-color: ;
+    background-color:#18796F ;
     
-    height: 400px;
-    margin: 70px;
+    height: 450px;
+    margin: 50px;
+    overflow-y: scroll;
+    
 }
 /*HEADER*/
-
+header{
+    
+}
 
 /*NAV*/
 nav a{
-    padding-left: 70px;
-    padding-right: 80px;
+ 
 }
-
+/*ABOUT*/
+#about{
+    height: 400px;
+}
 
 
 
