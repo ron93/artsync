@@ -39,28 +39,36 @@ nav ul{
 
 /*MID*/
 h2{
-    margin-top: 40px;
+/*    margin-top: 70px;*/
     font-size: 20px;
     text-align: center;
 }
 
 #mid{
-    background-color: #fff;
+    
     margin-top: 70px;    
+}
+
+#about h2,#work h2, #contact h2{
+    padding-top: 50px;
 }
 
 
 /*about*/
 #about{
     height: 700px;
-    
+    margin-bottom: 3px;
+    background-color: #fff;
 }
 
 /*my work*/
 #work{
+    
     padding-left: 25px;
      height: 700px;
     padding-right: 25px;
+    margin-bottom: 3px;
+    background-color: #fff;
 }
 
 #work .one .columns , #work .two .columns{
@@ -72,6 +80,8 @@ h2{
 
 /*contact*/
 #contact{
+    margin-bottom: 3px;
+    background-color: #fff;
      height: 700px;
 }
 
