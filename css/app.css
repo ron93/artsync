@@ -1,7 +1,10 @@
 body{
     background-color: #000000;
 }
+.container{
+    font-family: 'Gloria Hallelujah', cursive;
 
+}
 /*SIDE*/
 #side{
     margin-top: 100px;
@@ -17,7 +20,10 @@ hr{
     width: 110px;
 }
 
+h1,h2{
+    font-family: 'Indie Flower', cursive;
 
+}
 
 /*nav*/
 
