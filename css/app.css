@@ -1,3 +1,7 @@
+body{
+    background-color: #000000;
+}
+
 /*SIDE*/
 #side{
     margin-top: 100px;
@@ -13,6 +17,8 @@ hr{
     width: 110px;
 }
 
+
+
 /*nav*/
 
 nav a{
@@ -27,18 +33,27 @@ nav ul{
 
 /*MID*/
 h2{
-    
+    margin-top: 40px;
     font-size: 20px;
     text-align: center;
 }
 
 #mid{
-    background-color: azure;
-    margin-top: 50px;    
+    background-color: #fff;
+    margin-top: 70px;    
 }
 
 #about{
     height: 700px;
+    
 }
-#work{}
-#contact{}
+#work{
+     height: 700px;
+}
+#contact{
+     height: 700px;
+}
+
+
+
+/*ANIMATION*/
