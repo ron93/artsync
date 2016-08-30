@@ -43,13 +43,27 @@ h2{
     margin-top: 70px;    
 }
 
+
+/*about*/
 #about{
     height: 700px;
     
 }
+
+/*my work*/
 #work{
+    padding-left: 25px;
      height: 700px;
+    padding-right: 25px;
 }
+
+#work .one .columns , #work .two .columns{
+    height: 300px;
+    background-color: aqua;
+    margin-bottom: 20px;
+}
+
+/*contact*/
 #contact{
      height: 700px;
 }
