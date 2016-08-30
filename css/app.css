@@ -7,3 +7,17 @@
     color: #000000;
     
 }
+hr{
+    margin: 3px;
+    width: 100px;
+}
+
+/*nav*/
+
+nav a{
+    padding-left: 50px;
+  
+}
+nav ul{
+    margin-top: 50px;
+}
