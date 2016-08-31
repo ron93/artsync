@@ -14,15 +14,20 @@ body{
     color: #000000;
     
 }
-hr{
-    color: #000000;
-    margin: 3px;
-    width: 110px;
-}
+
+
 
 h1,h2{
     font-family: 'Indie Flower', cursive;
 
+}
+
+/*horizontal underline*/
+hr{
+    text-align: center;
+    color: #000000;
+    margin: 1px;
+    width: 110px;
 }
 
 /*nav*/
