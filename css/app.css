@@ -8,7 +8,7 @@ body{
 /*SIDE*/
 #side{
     margin-top: 100px;
-    height: 500px;
+    height: 400px;
     background-color: whitesmoke;
     position: fixed;
     color: #000000;
@@ -92,11 +92,15 @@ h2{
 
 /*contact*/
 #contact{
+    text-align: center;
     margin-bottom: 3px;
     background-color: #fff;
      height: 700px;
 }
 
+form{
+margin: 7px;
+}
 
 
 /*ANIMATION*/

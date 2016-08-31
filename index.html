@@ -21,12 +21,12 @@
     <div id="side" class="medium-3 columns">
      
       <header>
-          <h1>Ron</h1>
+          <h1><a href="#mid">Ron</a></h1>
           
       </header>
      
       <nav>
-          <ul><a href="#">Home</a></ul>
+          
           
           <ul><a href="#about">About</a></ul>
           <ul><a href="#work">My work</a></ul>
@@ -81,7 +81,50 @@
        </div>
        
 <!--     contact   -->
-        <div id="contact"><h2>Contact</h2></div>
+        <div id="contact"><h2>Contact</h2>
+        
+        
+        <form id="contact-form" class="form" action="#" method="POST" role="form">
+<!--  name-->
+              <div class="form-group">
+                  <label class="form-label" for="name">Your Name</label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Your name" tabindex="1" required>
+              </div>  
+              
+<!--email  -->
+                                                                                                                     
+              <div class="form-group">
+                  <label class="form-label" for="email">Your Email</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="2" required>
+              </div> 
+              
+                                                                    
+<!--
+              <div class="form-group">
+                  <label class="form-label" for="subject">Subject</label>
+                  <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3">
+              </div>                            
+-->
+             
+             
+<!--  message  -->
+              <div class="form-group">
+                  <label class="form-label" for="message">Message</label>
+                  <textarea rows="5" cols="50" name="message" class="form-control" id="message" placeholder="Message..." tabindex="4" required></textarea>                                 
+              </div>
+              
+<!--  submit button-->
+              <div class="text-center">
+                  <button type="submit" class="btn btn-start-order">Send Message</button>
+              </div>
+          </form>
+        
+        </div>
+         
+         
+         
+         
+         
          
      </div>
       </div>
