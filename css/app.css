@@ -8,7 +8,7 @@ body{
 /*SIDE*/
 #side{
     margin-top: 100px;
-    height: 400px;
+    height: 500px;
     background-color: whitesmoke;
     position: fixed;
     color: #000000;
@@ -38,9 +38,16 @@ nav a{
 }
 nav ul{
     margin-top: 50px;
+    border: 1px;
+    margin-bottom: 5px;
+
 }
 
-
+nav a:hover{
+    animation: side-move;
+    font-size: 30px;
+    color: black;
+}
 
 /*MID*/
 h2{
