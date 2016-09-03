@@ -68,6 +68,7 @@ h2{
 
 /*about*/
 #about{
+   
     height: 600px;
     margin-bottom: 3px;
     background-color: #fff;
@@ -96,11 +97,14 @@ h2{
     margin-bottom: 3px;
     background-color: #fff;
      height: 750px;
+   
 }
 
 form{
 margin: 7px;
 margin-top: 50px;
+    padding: 10px;
+/*     border: 1px solid grey;*/
 }
 
 
