@@ -1,5 +1,12 @@
 body{
-    background-color: #000000;
+background-image: url(../img/background.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-attachment: fixed;
+    
+/*    padding-top: 150px;*/
 }
 .container{
     font-family: 'Gloria Hallelujah', cursive;
@@ -12,6 +19,7 @@ body{
     background-color: whitesmoke;
     position: fixed;
     color: #000000;
+    
     
 }
 
@@ -50,6 +58,7 @@ nav a:hover{
 }
 
 /*MID*/
+
 h2{
 /*    margin-top: 70px;*/
     font-size: 20px;
@@ -58,7 +67,8 @@ h2{
 
 #mid{
     
-    margin-top: 70px;    
+    margin-top: 70px;  
+    
 }
 
 #about h2,#work h2, #contact h2{
