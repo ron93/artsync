@@ -152,13 +152,14 @@ textarea {
    	border-style: none none solid none;
    	box-shadow: none;
 }
-.form-input:active{
-    background-color: grey;
-}
+
+
 
 .form-input:focus {
 	box-shadow: none;
 	border-color: #5e9bfc;
+    
+    background-color: aqua;
 }
 
 
@@ -181,6 +182,7 @@ textarea {
 .btn:hover,.btn:active, .btn:focus {
 	border-color: #5e9bfc;
 	color: #5e9bfc;
+    background-color: aqua;
 }
 
 /*ANIMATION*/
