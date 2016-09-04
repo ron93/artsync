@@ -14,8 +14,8 @@ background-image: url(../img/background.jpg);
 }
 /*SIDE*/
 #side{
-    margin-top: 100px;
-    height: 400px;
+    margin-top: 6.25em;
+    height: 25em;
     background-color: whitesmoke;
     position: fixed;
     color: #000000;
@@ -27,7 +27,7 @@ background-image: url(../img/background.jpg);
 
 
 .social i{
-    margin-left: 50px;
+    margin-left: 3.125em;
 }
 
 h1,h2{
@@ -40,13 +40,13 @@ hr{
     text-align: center;
     color: #000000;
     margin: 1px;
-    width: 110px;
+    width: 6.875em;
 }
 
 /*nav*/
 
 nav a{
-    padding-left: 50px;
+    padding-left:3.125em;
   
 }
 nav ul{
@@ -85,7 +85,7 @@ h2{
 /*about*/
 #about{
    
-    height: 600px;
+    height: 37.5em;
     margin-bottom: 3px;
     background-color: #fff;
 }
@@ -94,25 +94,29 @@ h2{
 #work{
     
     padding-left: 20px;
-     height: 700px;
+     height:43.75;
     padding-right: 25px;
     margin-bottom: 3px;
     background-color: #fff;
 }
 
 #work .one .columns , #work .two .columns{
-    height: 300px;
+    height:18.75em;
     background-color: aqua;
     margin-bottom: 20px;
     margin: 2px;
 }
+.proj span{
+    display: none;
+}
+
 
 /*contact*/
 #contact{
     text-align: center;
     margin-bottom: 3px;
 /*    background-color: #fff;*/
-     height: 750px;
+     height: 46.875em;
    
 }
 
@@ -159,7 +163,7 @@ textarea {
 	box-shadow: none;
 	border-color: #5e9bfc;
     
-    background-color: aqua;
+    background-color:  paleturquoise;
 }
 
 .text-center{
@@ -184,7 +188,7 @@ textarea {
 .btn:hover,.btn:active, .btn:focus {
 	border-color: #5e9bfc;
 	color: #5e9bfc;
-    background-color: aqua;
+    background-color:  aquamarine;
 }
 
 /*ANIMATION*/
