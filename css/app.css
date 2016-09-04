@@ -23,7 +23,9 @@ background-image: url(../img/background.jpg);
     
 }
 
-
+.social i{
+    margin-left: 50px;
+}
 
 h1,h2{
     font-family: 'Indie Flower', cursive;
@@ -45,9 +47,10 @@ nav a{
   
 }
 nav ul{
-    margin-top: 50px;
+    margin-top: 20px;
     border: 1px;
     margin-bottom: 5px;
+    height: 70px;
 
 }
 
