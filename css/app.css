@@ -23,6 +23,9 @@ background-image: url(../img/background.jpg);
     
 }
 
+/*icon*/
+
+
 .social i{
     margin-left: 50px;
 }
@@ -149,7 +152,9 @@ textarea {
    	border-style: none none solid none;
    	box-shadow: none;
 }
-
+.form-input:active{
+    background-color: grey;
+}
 
 .form-input:focus {
 	box-shadow: none;
