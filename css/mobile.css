@@ -54,6 +54,27 @@ outline: none;}
 #menu span::after {
   bottom: -20px;
 }
+      
+      
+/*    icon rotate  */
+      
+    #menu--rot {
+  background-color: #28aadc;
+}
+
+#menu--rot span {
+  transition: transform 0.3s;
+}
+
+/* active state, i.e. menu open */
+#menu--rot.is-active {
+  background-color: #166888;
+}
+
+#menu--rot.is-active span {
+  transform: rotate(90deg);
+}
+      
 
       
       .menu-content{}
