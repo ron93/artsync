@@ -18,6 +18,7 @@
 <!--    stylesheets-->
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
@@ -26,17 +27,21 @@
     <div id="side" class="medium-3 columns">
      
       <header>
-          <h1><a href="#mid">Ron</a></h1>
+          <h1><a href="#mid">Ron Yagan</a></h1>
           
       </header>
-     
-      <nav>
+      
+<!--      nav-->
+     <button id="menu">
+     <span>toggle menu</span>
+      <nav class="menu-content">
           
           
           <ul><a href="#about">About</a></ul>
           <ul><a href="#work">My work</a></ul>
           <ul><a href="#contact">Contact</a></ul>
       </nav>
+        </button>
        <div class="social">
           <a href="">
           <i class="fa fa-twitter" aria-hidden="true"></i>
@@ -154,7 +159,11 @@
          
      </div>
       </div>
-    
+      
+     
+
+
+
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
