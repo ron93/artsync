@@ -8,7 +8,7 @@ background-image: url(../img/background.jpg);
     
 /*    padding-top: 150px;*/
 }
-.container{
+.container,h1,h2{
 /*    font-family: 'Gloria Hallelujah', cursive;*/
 font-family: 'Dosis', sans-serif;
 
@@ -31,7 +31,7 @@ font-family: 'Dosis', sans-serif;
     margin-left: 3.125em;
 }
 
-h1,h2{
+/*h1,h2{*/
     font-family: 'Indie Flower', cursive;
 
 }
