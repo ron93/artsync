@@ -17,6 +17,7 @@ font-family: 'Dosis', sans-serif;
 #side{
     margin-top: 6.25em;
     height: 25em;
+    width: 20%;
     background-color: whitesmoke;
     position: fixed;
     color: #000000;
