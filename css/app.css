@@ -89,15 +89,18 @@ h2{
 /*about*/
 #about{
    
-    height: 37.5em;
+    height: 40em;
     margin-bottom: 3px;
     background-color: #fff;
+    text-align: center;
 }
+
+
 .story{
-    height: 40%;
+    height: 15em;
 }
 .fami{
-    height: 60%;
+    height: 20em;
     
 }
 .fami img{
