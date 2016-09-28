@@ -6,7 +6,8 @@
 	text-align: center;
 }
 
-.grid li {
+/*
+.grid  {
 	display: inline-block;
 	width: 440px;
 	margin: 0;
@@ -14,16 +15,21 @@
 	text-align: left;
 	position: relative;
 }
+*/
 
 .grid figure {
 	margin: 0;
 	position: relative;
+    
 }
 
+/*img*/
 .grid figure img {
 	max-width: 100%;
 	display: block;
 	position: relative;
+    height: 300px;;
+    width: 100%;
 }
 
 .grid figcaption {

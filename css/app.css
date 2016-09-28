@@ -117,10 +117,15 @@ h2{
 
 #work .one .columns , #work .two .columns{
     height:18.75em;
-    background-color: aqua;
+    background-color: #fff;
     margin-bottom: 20px;
     margin: 2px;
 }
+/*
+.two .proj{
+    text-align: center;
+}
+*/
 .proj span{
     display: none;
 }
